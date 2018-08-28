@@ -1,0 +1,18 @@
+server:
+  port: 8611
+
+
+
+# 报警百分比 填100 就是1/100
+percent: 20
+
+# 指定csv中哪几个报警点报警, 数据点id, 逗号间隔
+
+spring:
+  kafka:
+    bootstrap-servers: 192.168.199.128:9092
+    producer:
+     value-serializer: org.apache.kafka.common.serialization.StringSerializer
+     key-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+
