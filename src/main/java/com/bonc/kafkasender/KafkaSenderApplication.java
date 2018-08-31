@@ -32,14 +32,14 @@ public class KafkaSenderApplication {
 	private void  readFile(){
 		File file = null;
 		try {
-			file = ResourceUtils.getFile("classpath:hello.csv.csv");
+			file = ResourceUtils.getFile("classpath:hello.csv");
 		} catch (Exception e) {
 			LOGGER.error("msg","文件找不到");
 		}
 		List<String> lines = null;
 		try {
 			if (file == null){
-				lines = Files.readAllLines(Paths.get("../config/hello.csv.csv"));
+				lines = Files.readAllLines(Paths.get("../config/hello.csv"));
 			}else {
 				lines = Files.readAllLines(Paths.get(file.getPath()));
 			}
