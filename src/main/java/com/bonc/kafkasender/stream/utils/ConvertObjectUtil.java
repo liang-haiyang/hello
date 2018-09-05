@@ -1,7 +1,6 @@
-package com.bonc.kafkasender.utils;
+package com.bonc.kafkasender.stream.utils;
 
-import com.bonc.kafkasender.model.Person;
-import com.bonc.kafkasender.model.SimplePerson;
+import com.bonc.kafkasender.kafka.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;

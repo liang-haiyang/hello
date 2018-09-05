@@ -1,6 +1,6 @@
-package com.bonc.kafkasender.controller;
+package com.bonc.kafkasender.kafka.controller;
 
-import com.bonc.kafkasender.core.KafkaScheduleTask;
+import com.bonc.kafkasender.kafka.core.KafkaScheduleTask;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

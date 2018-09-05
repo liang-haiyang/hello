@@ -1,4 +1,4 @@
-package com.bonc.kafkasender.core;
+package com.bonc.kafkasender.kafka.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

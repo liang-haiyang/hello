@@ -1,4 +1,4 @@
-package com.bonc.kafkasender.core;
+package com.bonc.kafkasender.kafka.core;
 
 import com.bonc.kafkasender.config.AlarmConfig;
 import org.slf4j.Logger;
@@ -11,7 +11,6 @@ import org.springframework.util.StringUtils;
 import javax.annotation.Resource;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 

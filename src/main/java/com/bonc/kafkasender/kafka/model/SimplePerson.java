@@ -1,4 +1,4 @@
-package com.bonc.kafkasender.model;
+package com.bonc.kafkasender.kafka.model;
 
 import lombok.Getter;
 import lombok.Setter;

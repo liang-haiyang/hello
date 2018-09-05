@@ -1,6 +1,6 @@
 package com.bonc.kafkasender;
 
-import com.bonc.kafkasender.core.KafkaScheduleTask;
+import com.bonc.kafkasender.kafka.core.KafkaScheduleTask;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
