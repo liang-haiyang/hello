@@ -1,4 +1,4 @@
-package com.bonc.kafkasender;
+package com.liang;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.bonc.kafkasender.config;
+package com.liang.config;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bonc.kafka-sender</groupId>
-    <artifactId>kafka-sender</artifactId>
+    <groupId>com.liang</groupId>
+    <artifactId>springboot-netty-hello</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>kafka-sender</name>
+    <name>springboot-netty-hello</name>
     <description>send data to kafka</description>
 
     <parent>
@@ -65,7 +65,7 @@
                     <!--运行jar包时运行的主类，要求类全名-->
                     <archive>
                         <manifest>
-                            <mainClass>com.bonc.kafkasender.KafkaSenderApplication</mainClass>
+                            <mainClass>com.liang.KafkaSenderApplication</mainClass>
                             <!-- 是否指定项目classpath下的依赖 -->
                             <addClasspath>true</addClasspath>
                             <!-- 指定依赖的时候声明前缀 -->

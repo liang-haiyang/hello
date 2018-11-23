@@ -1,6 +1,6 @@
-package com.bonc.kafkasender.stream.utils;
+package com.liang.stream.utils;
 
-import com.bonc.kafkasender.kafka.model.Person;
+import com.liang.kafka.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.function.Function;
  */
 public class ConvertObjectUtil {
     /**
-     *  将对象属性转换成列表
+     * 将对象属性转换成列表
      */
     public static Function<Person, List<Object>> personToList = (person) -> {
         List<List<Object>> rows = new ArrayList<>();

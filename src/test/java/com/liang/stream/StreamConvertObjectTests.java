@@ -1,13 +1,13 @@
-package com.bonc.kafkasender;
+package com.liang.stream;
 
-import com.bonc.kafkasender.kafka.model.Person;
+import com.liang.kafka.model.Person;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.bonc.kafkasender.stream.utils.ConvertObjectUtil.personToList;
+import static com.liang.stream.utils.ConvertObjectUtil.personToList;
 
 /**
  * @author lianghaiyang

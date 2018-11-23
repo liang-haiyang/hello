@@ -1,6 +1,6 @@
-package com.bonc.kafkasender.kafka.core;
+package com.liang.kafka.core;
 
-import com.bonc.kafkasender.config.AlarmConfig;
+import com.liang.config.AlarmConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
